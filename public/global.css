@@ -1,0 +1,35 @@
+:root {
+    --text-color: #C1C9CE;
+    --background-color: #001427;
+    --pink-color: #CA6A81;
+    --yellow-color: #BA9F44;
+    --blue-color: #2469C4;
+    --green-color: #80DD93;
+    --font-family: 'Josefin Sans', sans-serif;
+    --font-size-text: 1rem;
+    --break-point-mid: 768px;
+}
+
+/* Additional global styles can be added here */
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background: var(--background-color);
+    font-size: var(--font-size-text);
+}
+
+.pink {
+    color: var(--pink-color)
+}
+
+.yellow {
+    color: var(--yellow-color)
+}
+
+.blue {
+    color: var(--blue-color)
+}
+
+.green {
+    color: var(--green-color)
+}
