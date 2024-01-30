@@ -33,7 +33,6 @@
 </header>
 
 <style>
-    @import "../../../public/global.css";
     header {
         padding: 0.5rem;
         display: flex;

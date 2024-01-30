@@ -1,12 +1,13 @@
 <script>
 	import Header from "./components/molecules/Header.svelte";
+	import Home from "./components/molecules/Home.svelte";
 </script>
 
 <main>
-	<Header title="Your Name" />
-	<!-- Include other components here -->
+	<Header />
+	<Home />
 </main>
 
 <style>
-	@import "../public/global.css";
+
 </style>

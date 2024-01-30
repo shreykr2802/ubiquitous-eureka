@@ -8,6 +8,7 @@
     --font-family: 'Josefin Sans', sans-serif;
     --font-size-text: 1rem;
     --break-point-mid: 768px;
+    --box-header-color: rgba(193, 201, 206, 0.06);
 }
 
 /* Additional global styles can be added here */
@@ -32,4 +33,30 @@ body {
 
 .green {
     color: var(--green-color)
+}
+
+.pink-bg {
+    background-color: var(--pink-color)
+}
+
+.yellow-bg {
+    background-color: var(--yellow-color)
+}
+
+.blue-bg {
+    background-color: var(--blue-color)
+}
+
+.green-bg {
+    background-color: var(--green-color)
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+}
+
+.column {
+    display: flex;
+    flex-flow: column;
 }
